@@ -1,0 +1,12 @@
+a= [1, 2, 3]
+print(dir(a))
+b=iter(a)
+print(b)
+print(next(b))
+print(next(b))
+print(next(b))
+c=reversed(a)
+print("Now these are reversed iteration")
+print(next(c))
+print(next(c))
+print(next(c))
